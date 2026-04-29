@@ -1,0 +1,28 @@
+/* Soprannomi Osteria - Custom styles */
+
+html { scroll-behavior: smooth; }
+body { font-feature-settings: 'kern' 1, 'liga' 1; }
+
+/* Selection */
+::selection { background: #8B3A1F; color: #FAF6F0; }
+
+/* Date/select native restyling */
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator { filter: invert(0.4); cursor: pointer; }
+select { appearance: none; background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%232D2419'%3e%3cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3e%3c/svg%3e"); background-repeat: no-repeat; background-position: right 0.75rem center; background-size: 1rem; padding-right: 2.5rem; }
+
+/* Image fade-in on load */
+img { transition: opacity .4s ease; }
+img[loading="lazy"]:not([data-loaded]) { opacity: 0; }
+img[data-loaded] { opacity: 1; }
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0s !important; transition-duration: 0s !important; }
+}
+
+/* Mobile bottom safe area */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .fixed.bottom-0 { padding-bottom: env(safe-area-inset-bottom); }
+}

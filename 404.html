@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pagina non trovata - Soprannomi Osteria Contemporanea</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = { theme: { extend: { colors: { terracotta:'#8B3A1F','terracotta-dark':'#6E2D17',cream:'#FAF6F0','cream-dark':'#F0E8DC',gold:'#C9A063',charcoal:'#2D2419' }, fontFamily: { serif: ['"Playfair Display"','serif'], sans:['Inter','sans-serif'] } } } }
+</script>
+</head>
+<body class="bg-cream text-charcoal font-sans antialiased min-h-screen flex items-center justify-center px-4">
+  <main class="text-center max-w-xl">
+    <p class="text-gold uppercase tracking-[0.3em] text-xs mb-4">Errore 404</p>
+    <h1 class="font-serif text-6xl md:text-8xl mb-6 text-terracotta">Ops!</h1>
+    <p class="text-xl mb-8 text-charcoal/80">Questa pagina non esiste. Forse cerchi una di queste:</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="/" class="bg-terracotta hover:bg-terracotta-dark text-cream px-6 py-3 rounded-sm uppercase tracking-widest text-sm transition">Home</a>
+      <a href="/menu.html" class="border border-charcoal/30 hover:bg-charcoal hover:text-cream px-6 py-3 rounded-sm uppercase tracking-widest text-sm transition">Menu</a>
+      <a href="/prenota.html" class="border border-charcoal/30 hover:bg-charcoal hover:text-cream px-6 py-3 rounded-sm uppercase tracking-widest text-sm transition">Prenota</a>
+    </div>
+  </main>
+</body>
+</html>
