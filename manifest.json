@@ -1,0 +1,13 @@
+{
+  "name": "Soprannomi Osteria Contemporanea",
+  "short_name": "Soprannomi",
+  "description": "Osteria contemporanea a Bari. Cucina pugliese rivisitata.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF6F0",
+  "theme_color": "#8B3A1F",
+  "icons": [
+    { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
