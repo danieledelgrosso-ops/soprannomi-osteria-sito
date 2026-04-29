@@ -10,3 +10,6 @@ desktop.ini
 
 # Archives
 *.zip
+
+# Local image working folder
+_extracted_images/
