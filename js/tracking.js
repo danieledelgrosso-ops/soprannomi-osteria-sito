@@ -29,7 +29,7 @@
 
   var CONVERSIONS = {
     phone_click:        { label: 'REPLACE_PHONE_LABEL',       value: 20, currency: 'EUR' },
-    whatsapp_click:     { label: 'REPLACE_WHATSAPP_LABEL',    value: 25, currency: 'EUR' },
+    whatsapp_click:     { label: 'pqurCPL03KQcEPKo-cVB',      value: 25, currency: 'EUR' },
     map_click:          { label: 'REPLACE_MAP_LABEL',         value: 5,  currency: 'EUR' },
     menu_engagement:    { label: 'REPLACE_MENU_LABEL',        value: 3,  currency: 'EUR' },
     reservation_submit: { label: 'REPLACE_RESERVATION_LABEL', value: 30, currency: 'EUR' }
