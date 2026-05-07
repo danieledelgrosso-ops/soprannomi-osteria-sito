@@ -11,6 +11,8 @@ desktop.ini
 # Archives
 *.zip
 
+# (sopra_menu_.pdf is committed; other PDFs are excluded by default — none here)
+
 # Local image working folder
 _extracted_images/
 _menu_pdf_pages/
